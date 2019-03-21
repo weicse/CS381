@@ -1,0 +1,20 @@
+C/C++ Build --> Settings --> GCC C++ Compiler --> Includes
+
+"${workspace_loc:/${ProjName}/inc}"
+/usr/local/include/OGRE/Overlay
+/usr/include/ois
+/usr/local/include/OGRE
+
+
+C/C++ Build --> Settings --> GCC C++ Linker --> Libraries --> Libraries
+
+OgreOverlay
+OgreMain
+OIS
+boost_system
+
+
+C/C++ Build --> Settings --> GCC C++ Linker --> Libraries --> Libraries
+
+/usr/local/lib
+/usr/lib/x86_64-linux-gnu
